@@ -11,8 +11,8 @@ const workshopData = [
     link: "https://www.airmeet.com/e/9a1ab010-2185-11ec-b179-4b211ef62be1", //enter the link of the workshop
     image:
       "https://media.istockphoto.com/photos/businesswoman-holding-a-speech-picture-id1254127323?b=1&k=20&m=1254127323&s=170667a&w=0&h=l7PIoqgPnTZeA5fINQ22ShbZt9gOxaCDbxXu0yxf5fQ=", //give the image (make sure to host it before adding)
-    date: "10 Sep 2021", //give the event's date
-    time: "7 PM Onwards", //give the event's time
+    date: "5th Oct 2021", //give the event's date
+    time: "5 PM Onwards", //give the event's time
   },
 ];
 
