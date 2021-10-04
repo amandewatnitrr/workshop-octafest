@@ -24,7 +24,7 @@ const workshopData = [
     time: "5 PM IST Onwards", //give the event's time
   },
   {
-    workshopName: "Open Source Contribution with Mathematica/Wolfram",
+    workshopName: "Open Source Contribution with Wolfram",
     about: "Getting started with Wolfram and Open-Source with Wolfram", //About the workshop in about 50 words
     link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
     image:
