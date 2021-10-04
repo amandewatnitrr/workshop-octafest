@@ -35,7 +35,7 @@ const workshopData = [
   {
     workshopName: "Valorant Tournament",
     about: "All or Nothing", //About the workshop in about 50 words
-    link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
+    link: "https://forms.gle/X9VdrpbQ8uikGM7V6", //enter the link of the workshop
     image:
       "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/Customs!%20(3).png?raw=true", //give the image (make sure to host it before adding)
     date: "9th Oct 2021", //give the event's date
@@ -66,6 +66,69 @@ const workshopData = [
     image:
       "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/anchal0.jpg?raw=true", //give the image (make sure to host it before adding)
     date: "16th Oct 2021", //give the event's date
+    time: "5 PM IST Onwards", //give the event's time
+  },
+  {
+    workshopName: "Dev Chess Arena",
+    about: "Blitz Tournament", //About the workshop in about 50 words
+    link: "https://forms.gle/4GoXeojWJbNgts9L7", //enter the link of the workshop
+    image:
+      "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/DEV%20ARENA.png?raw=true", //give the image (make sure to host it before adding)
+    date: "17th Oct 2021", //give the event's date
+    time: "7:30 PM IST Onwards", //give the event's time
+  },
+  {
+    workshopName: "Deep learning for Pattern recognition",
+    about: "Pattern Recog. with Deep Learning", //About the workshop in about 50 words
+    link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
+    image:
+      "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/aman%20verma0.jpg?raw=true", //give the image (make sure to host it before adding)
+    date: "20th Oct 2021", //give the event's date
+    time: "5 PM IST Onwards", //give the event's time
+  },
+  {
+    workshopName: "Coffee with MERN",
+    about: "Getting Started with MERN", //About the workshop in about 50 words
+    link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
+    image:
+      "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/aryan%20sarkar.-0.jpg?raw=true", //give the image (make sure to host it before adding)
+    date: "21st Oct 2021", //give the event's date
+    time: "5 PM IST Onwards", //give the event's time
+  },
+  {
+    workshopName: "Hangout with Wolfram and Github",
+    about: "Exploring Wolfram and Github", //About the workshop in about 50 words
+    link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
+    image:
+      "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/aman%202%20(Stitched%20Clip)0.jpg?raw=true", //give the image (make sure to host it before adding)
+    date: "22nd Oct 2021", //give the event's date
+    time: "5 PM IST Onwards", //give the event's time
+  },
+  {
+    workshopName: "My Roadmap to Microsoft intern",
+    about: "My Journey to Microsoft Internship", //About the workshop in about 50 words
+    link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
+    image:
+      "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/vibali0.jpg?raw=true", //give the image (make sure to host it before adding)
+    date: "24th Oct 2021", //give the event's date
+    time: "5 PM IST Onwards", //give the event's time
+  },
+  {
+    workshopName: "Knack for Cybersecurity",
+    about: "Introduction to Hacking and Cybersecurity", //About the workshop in about 50 words
+    link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
+    image:
+      "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/prasan0.jpg?raw=true", //give the image (make sure to host it before adding)
+    date: "26th Oct 2021", //give the event's date
+    time: "5 PM IST Onwards", //give the event's time
+  },
+  {
+    workshopName: "Game Development with Processing",
+    about: "Getting started with p5.js", //About the workshop in about 50 words
+    link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
+    image:
+      "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/priyanshi0.jpg?raw=true", //give the image (make sure to host it before adding)
+    date: "28th Oct 2021", //give the event's date
     time: "5 PM IST Onwards", //give the event's time
   },
 ];
