@@ -25,7 +25,7 @@ const workshopData = [
   },
   {
     workshopName: "Open Source Contribution with Wolfram",
-    about: "Getting started with Wolfram and Open-Source with Wolfram", //About the workshop in about 50 words
+    about: "Open-Source with Wolfram", //About the workshop in about 50 words
     link: "https://discord.gg/WRNevv9vWf", //enter the link of the workshop
     image:
       "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/aman%20sir0010.jpg?raw=true", //give the image (make sure to host it before adding)
