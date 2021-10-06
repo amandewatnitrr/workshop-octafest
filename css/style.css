@@ -24,6 +24,7 @@ body {
   font: 400 24px/1 "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, sans-serif;
   color: #1f2d3d;
+  font-family: 'Roboto Mono', monospace;
   background-color: white;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -217,6 +218,7 @@ table td {
 .ws-section {
   max-width: 100%;
   margin: 0 auto;
+  margin-bottom:30px;
 }
 
 .ws-grid {
@@ -240,14 +242,12 @@ table td {
 
 .ws-grid li {
   width: 320px;
-  height: 240px;
+  height: 260px;
   display: inline-block;
   margin: 10px;
 }
 
-.ws-grid p {
-  color: #5bffcd;
-}
+
 
 @media screen and (max-width: 360px) {
   .ws-grid li {
@@ -259,11 +259,11 @@ table td {
   height: 100%;
   position: relative;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 8px;
   -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
   transition: all 0.3s ease-in-out, transform 0.3s ease-in-out;
-  box-shadow: 0 0 10pt 1pt rgb(10, 10, 15);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.65);
   background-position: 50% -150%;
   background-size: cover;
 }
@@ -642,11 +642,11 @@ table td {
 }
 
 .rodape_area {
-  background: #f9fafc;
+  background:	#080808;
 }
 
 .rodape_top {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   position: relative;
   overflow-x: hidden;
 }
@@ -658,8 +658,8 @@ table td {
 
 .rodape_top .company_widget p {
   font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
+  font-weight: 200;
+  line-height: 24px;
   color: #6a7695;
   margin-bottom: 20px;
 }
@@ -1023,9 +1023,11 @@ table td {
 
 /** Site header */
 .site-header {
-  position: relative;
+  position: sticky;
+
   width: 100%;
   background: #fff;
+  background:	#080808;
 }
 
 .site-title {
@@ -1358,12 +1360,22 @@ table {
   margin: auto;
 }
 
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+
 /* default css start */
 .header-area {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
-  background-position: center center;
-  background-size: cover;
+  background: gray
+    url("https://www.toptal.com/designers/subtlepatterns/patterns/geometry2.png")
+    repeat 0 0;
+  box-sizing: border-box;
+  animation: slide 20s linear infinite;
 }
 
 /* default css end */
@@ -1500,7 +1512,7 @@ a.site-logo {
     background-color: rgba(255, 255, 255, 0.1);
   }
   .site-navbar ul.open {
-    max-height: 100vh;
+    max-height: 35vh;
     overflow: visible;
   }
   .intro-area h2 {
@@ -1579,11 +1591,11 @@ a.site-logo {
 
 .hc-button-small {
   border: 0;
-  border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
   font-weight: 700;
-  border-radius: 99999px;
+  font-size: 1.2rem;
+  border-radius: 80px;
   display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -1872,7 +1884,7 @@ button:focus {
   color: #999;
 }
 .highlight .vc {
-  color: #008080;
+  color: #7ae0e0;
 }
 .highlight .vg {
   color: #008080;
@@ -1903,4 +1915,19 @@ button:focus {
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+}
+a {
+  text-decoration: none !important;
+}
+@media screen and(max-width:957px) {
+  .site-navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+ul.open {
+  margin-top: 44px;
+}
+footer{
+  background:black;
 }

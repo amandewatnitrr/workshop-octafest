@@ -12,31 +12,31 @@ function workshopDisplay(workshop) {
             </div>
         </li>
         `;
-    }
-  
-    document.getElementById("upcoming").innerHTML = `
+}
+
+document.getElementById("upcoming").innerHTML = `
     ${workshopData.map(workshopDisplay).join("")}
     <p>There are ${workshopData.length} upcoming workshops.</p>
 `;
 
 //Past Workshops
 
-function pastWorkshops(workshop) {
-    return `
-        <li>
-            <div class="ws-box" style="background-image: url('${workshop.image}');">
-            <a href="${workshop.link}" class="wslink">
-                <div class="ws-info">
-                    <h3>${workshop.workshopName}</h3>
-                    <p>${workshop.about}</p>
-                </div>
-            </a>
-            </div>
-        </li>
-        `;
-    }
-  
-  document.getElementById("past").innerHTML = `
-  ${pastWorkshopData.map(pastWorkshops).join("")}
-  <p>There are ${pastWorkshopData.length} workshops.</p>
-`;
+// function pastWorkshops(workshop) {
+//     return `
+//         <li>
+//             <div class="ws-box" style="background-image: url('${workshop.image}');">
+//             <a href="${workshop.link}" class="wslink">
+//                 <div class="ws-info">
+//                     <h3>${workshop.workshopName}</h3>
+//                     <p>${workshop.about}</p>
+//                 </div>
+//             </a>
+//             </div>
+//         </li>
+//         `;
+// }
+
+// document.getElementById("past").innerHTML = `
+//   ${pastWorkshopData.map(pastWorkshops).join("")}
+//   <p>There ${pastWorkshopData.length > 0 ? `is` : `are`} ${pastWorkshopData.length} workshops.</p>
+// `;
