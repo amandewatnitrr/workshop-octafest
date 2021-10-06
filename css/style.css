@@ -353,6 +353,9 @@ table td {
   #initial-header {
     margin-top: 30px;
   }
+  .hidenav {
+    display: none;
+  }
 }
 .exp-box {
   width: 100%;
