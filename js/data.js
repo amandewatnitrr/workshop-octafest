@@ -52,7 +52,7 @@ const workshopData = [
     image:
       "https://github.com/amandewatnitrr/Octafest/blob/main/img/posters/anchal0.jpg?raw=true", //give the image (make sure to host it before adding)
     date: "16th Oct 2021", //give the event's date
-    time: "5 PM IST Onwards", //give the event's time
+    time: "4 PM IST Onwards", //give the event's time
   },
   {
     workshopName: "Dev Chess Arena",
